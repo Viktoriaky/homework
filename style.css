@@ -1,0 +1,63 @@
+    .flex-container {
+        display:flex ;
+        flex-wrap: wrap ;
+        width: 800px ;
+        border: black 2px dashed ;
+
+        }
+    .d1 {
+        display: inline-block;
+        width: 800px ;
+        height: 70px ;
+        border-bottom: black 3px solid ;
+        background: rgba(0, 0, 255, 0.479) ;
+    }
+    .d2 {
+        display: flex ;
+        width: 150px ;
+        height: 530px ;
+        justify-content: space-around ;
+        align-items: center ;
+        flex-direction: column ;
+        background:rgb(102, 68, 226) ;
+        border-right: 3px solid black;
+    }
+    .d3 {
+        display: flex ;
+        overflow: auto ;
+        height: 530px ;
+        align-content: flex-start ;
+        padding-left: 20px;
+        white-space: nowrap;
+        flex-direction: column ;
+        flex-grow: 2 ;
+        font-size: 20pt ;
+        background: rgba(102, 68, 226);
+        
+        }
+    .dd2 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+    
+    
+    .dd3 {
+        width: 600px ;
+        align-self: center;
+        white-space: nowrap;
+        border: black 1px solid ;
+        background: rgba(118, 171, 240, 0.479) ;
+    }
+    
+    .ddd2 {
+        width: 50px ;
+        height: 50px ;
+        text-align: center ;
+        vertical-align: center ;
+        line-height: 50px ;
+        border-radius: 50% ;
+        border: black 1px solid ;
+        background: rgba(0, 0, 255, 0.479) ;
+        }
+        
