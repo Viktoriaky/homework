@@ -1,14 +1,6 @@
-    p {
-     color: rgb(236, 61, 90);
-     font-size: 150%; 
-     font-family: cursive;
-     position: relative;
-    }
-    thead {
-        align:center;
-        color:black;
-        font-size: 130%;
-         
+    .person {
+        display: inline-block;
+        vertical-align: top;
     }
     .general {
         color: rgba(124, 104, 238) ;
@@ -16,6 +8,12 @@
         font-style: italic;
         font-family: 'Lucida Sans', cursive;
         position: sticky;
+    }
+    p {
+     color: rgb(236, 61, 90);
+     font-size: 150%; 
+     font-family: cursive;
+     position: relative;
     }
     .filling {
         display: inline-block;
@@ -52,21 +50,32 @@
         outline: none;
         box-shadow: none;
         cursor: pointer;
-
     }
     select {
         border-radius: 2px;
         cursor: pointer;
     }
-    tbody td:hover {
-        background: magenta;
+    tbody tr:hover {
+        background: rgb(233, 102, 233);
+    }
+    thead {
+        align:center;
+        color:black;
+        font-size: 130%;  
     }
     table {
         width: 100%;
-        border: 1;
-        padding : 5 ;
-        spacing : 0 ;
+        border: 1px solid magenta;
         background : pink ;
-        column-count: 3;
-        column-width: 10%;
+        border-spacing: 0px;
+    }
+    td,th {
+        border: 1px solid magenta;     
+    }
+    table td:first-child {
+        width: 10%;
+    }
+    img {
+        width: 100px ;
+        height: 130px ;
     }
