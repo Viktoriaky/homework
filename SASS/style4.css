@@ -1,0 +1,77 @@
+@import "_styleforhr.scss"
+
+.person {
+    display: inline-block;
+    vertical-align: top;
+}
+
+p {
+ color: rgb(236, 61, 90);
+ font-size: 150%; 
+ font-family: cursive;
+ position: relative;
+}
+.filling {
+    display: inline-block;
+    color: rgb(12, 201, 138) ;
+    font-size: 100%;
+    font-family: 'Lucida Sans', cursive;
+    position: sticky;
+}
+.but {
+    border-color:rgba(255, 0, 0, 0.342);
+    cursor: pointer;
+    background: linear-gradient(to bottom, pink, rgba(251, 255, 0, 0.726), lightgreen);
+    box-shadow: lightseagreen 4px 4px 4px  ;
+    padding: 8px 8px 8px 8px;
+    text-shadow: 3px 3px 0 rgba(0,0,0,0.3);
+    font-weight:bold;
+    border: 0;
+    color: brown;
+}
+.caption {
+    font-size: 50px;
+}
+a:visited {
+    color: aquamarine
+}
+a:active {
+    color: blueviolet
+}
+a:hover {
+    color: brown
+}
+input {
+    border-radius: 6px;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+select {
+    border-radius: 2px;
+    cursor: pointer;
+}
+tbody tr:hover {
+    background: rgb(233, 102, 233);
+}
+thead {
+    box-align: center ;
+    color:black ;
+    font-size: 130% ;  
+}
+table {
+    width: 100%;
+    border: 1px solid magenta;
+    background : pink ;
+    border-spacing: 0px;
+}
+td,th {
+    border: 1px solid magenta;     
+}
+table td:first-child {
+    width: 10%;
+}
+img {
+    width: 100px ;
+    height: 130px ;
+}
