@@ -5,34 +5,34 @@
     border-bottom: black 3px solid ;
     background: rgba(0, 0, 255, 0.479) ;
     }
-    .flex-container {
-        display:flex ;
+    .msg {
+        display: flex ; 
         flex-wrap: wrap ;
         width: 800px ;
         height: 530px ;
-        flex-direction: row ;
-        overflow: auto ;
-    }   
-    .line {
-        width: 160px ;
-        height: 530px ;
-        border-right: 3px solid black ;
-        position: absolute;
-    } 
-    .msg {
-        display: flex ;
-        width: 100% ;
-        flex-direction: row ;
+        overflow: auto ;        
+        flex-direction: column ;
         align-items: center ;
         background:rgba(0, 0, 255, 0.479) ;
-        justify-content: space-around ;
+        
     }    
-    .answer {
+    /* .answer {
         width: 600px ;
         align-self: center;
         white-space: nowrap;
         border: black 1px solid ;
         background: rgba(118, 171, 240, 0.479) ;
+    } */
+    .left-part {
+        display: flex ;
+        
+        width: 150px ;   
+        height: 100% ;  
+        flex-flow: row wrap ;
+        align-items: center ;
+        align-content: stretch ;
+        
+        
     }
     .circle {
         width: 50px ;
@@ -44,5 +44,26 @@
         border: black 1px solid ;
         background: rgba(0, 0, 255, 0.5) ;
         }
+
+
+    .right-part {
+        display: flex ;
         
+        height: 100% ;
+        flex-direction: column ;
+        justify-content: space-between ;
+        border-left: 3px solid black ;
+        padding: 5px ;
+    }
+   
+    .name {
+
+      }  
+    .message {
+        width: 600px ;
+        align-self: center;
+        white-space: nowrap;
+        border: black 1px solid ;
+        background: rgba(118, 171, 240, 0.479) ;
+    }
         
