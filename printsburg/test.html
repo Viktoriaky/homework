@@ -1,0 +1,68 @@
+<style>
+ input {
+    display: none;
+  }
+  label,
+  ul {
+    border: 1px solid #cecfd5;
+    border-radius: 6px;
+  }
+  label {
+    color: #0087cc;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    padding: 5px 9px;
+    transition: all .15s ease;
+  }
+  label:hover {
+    color: #ff7b29;
+  }
+  input:checked + label {
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+    color: #9799a7;
+  }
+  nav {
+    max-height: 0;
+    overflow: hidden;
+    transition: all .15s ease;
+  }
+  input:checked ~ nav {
+    max-height: 500px;
+  }
+  ul {
+    list-style: none;
+    margin: 8px 0 0 0;
+    padding: 0;
+    width: 100px;
+  }
+  li {
+    border-bottom: 1px solid #cecfd5;
+  }
+  li:last-child {
+    border-bottom: 0;
+  }
+  a {
+    color: #0087cc;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ff7b29;
+  }
+  
+
+</style>
+
+<input type="checkbox" id="toggle">
+<label for="toggle">&#9776;</label>
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+

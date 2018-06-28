@@ -1,0 +1,146 @@
+header {
+    .main-content {
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 128px;
+    }
+
+    nav {
+        .nav-item {
+            font-size: 17px;
+            margin-right: 18px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .phone-and-lang {
+        justify-content: space-between;
+        width: 208px;
+
+        .phone {
+            font-size: 22px;
+        }
+        
+        .delimeter {
+            height: 1px;
+            width: 100%;
+            background-color: $primary-color;
+        }
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}
+
+.first-block {
+    height: 710px;
+    padding-top: 98px;
+    padding-left: 2px;
+    color: white;
+
+    .first-block-label {
+        line-height: 1.33;
+        color: inherit;
+        margin-bottom: 45px;
+    }
+
+    .first-block-label-last-row {
+        font-size: 38px;
+    }
+
+    .medium-text {
+        font-size: 23px;
+    }
+
+    .first-block-list {
+        line-height: 1.3;
+        margin-top: 0;
+        padding-left: 32px;
+        margin-bottom: 59px;        
+    }
+
+    .delimeter-container {
+        flex: 1;
+        margin-right: 22px;
+        margin-left: 8px;
+    }
+
+    .delimeter-top-part {
+        border-bottom: 1px solid white;
+        width: 100%;
+    }
+
+    .first-block-button {
+        width: 246px;
+    }
+
+}
+
+.step-container {
+    align-items: flex-start;
+    width: 316px;
+}
+
+.step-number {
+    color: $secondary-color;
+    margin-right: 14px;
+    position: relative;
+
+    &:after {
+        content: ' ';
+        position: absolute;
+        height: 61%;
+        width: 1px;
+        top: 100%;
+        background-color: $secondary-color;
+        right: 5px;
+    }
+}
+
+.step-label {
+    font-weight: bold;
+}
+
+.step-container-right {
+    padding-top: 8px;
+}
+
+.solutions-block {
+    height: 710px;
+    padding-top: 98px;
+    padding-left: 2px;
+    color: white;
+
+    .solutions-block-label {
+        line-height: 1.33;
+        color: inherit;
+        margin-bottom: 45px;
+    }
+
+    .solution-container {
+        flex: 1;
+    }
+
+    .solutions-container {
+        align-items: flex-start;        
+
+        .solution-container {        
+            border-right: 1px solid transparentize(#FFF, 0.5);
+
+            &:last-child {
+                border-right: none;
+            }
+        }
+        
+        .solution-title {
+            border-bottom: 1px solid transparentize(#FFF, 0.5);
+        }
+    }
+}

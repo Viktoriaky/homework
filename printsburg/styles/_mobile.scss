@@ -1,0 +1,35 @@
+@media (max-width: 1050px) {
+    header {
+        .phone-and-lang {
+            display: none;
+        }
+
+        nav {
+            position: absolute;
+            top: 76px;
+            width: 300px;
+            left: -300px;
+            flex-direction: column;
+            transition: all 2s ease;
+
+            &.visible {
+                left: 0;
+            }
+        }
+        
+        .burger-menu {
+            display: block;
+            height: 40px;
+            width: 38px;
+            padding: 0;
+            padding-top: 8px;
+
+            .burger-line {
+                height: 2px;
+                width: 70%;
+                background-color: $primary-color;
+                margin: 0 auto 6px auto;
+            }
+        }
+    }
+}

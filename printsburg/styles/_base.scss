@@ -1,0 +1,53 @@
+@import "common-colors";
+
+div, section, main,
+header, footer, button {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: $primary-color;
+}
+
+header {
+    height: 75px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+}
+
+.column-container {
+    @extend .flex-container;
+    flex-direction: column;
+}
+
+.main-content {
+    max-width: 1050px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.title-text {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.medium-text {
+    font-size: 21px;
+}
+
+.big-text {
+    font-size: 56px;
+}
+
+.button {
+    border-radius: 6px;
+    color: white;
+    background-color: $secondary-color;
+    border: none;
+    line-height: 1.25;    
+    box-shadow: 4px 5px 8px 2px transparentize(#333, 0.5);
+    height: 54px;
+}
+
