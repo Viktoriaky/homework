@@ -1,0 +1,19 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<table st-table="rowCollection" class="table table-striped">
+	<thead>
+	<tr>
+		<th>first name</th>
+		<th>last name</th>
+		<th>birth date</th>
+		
+	</tr>
+	</thead>
+	<tbody>
+	<tr ng-repeat="row in rowCollection">
+		<td><a ng-href="./app.component.hr.html">{{row.firstName | uppercase}}</a></td>
+		<td>{{row.lastName}}</td>
+		<td>{{row.birthDate}}</td>
+		
+	</tr>
+	</tbody>
+</table>

@@ -112,6 +112,43 @@ header {
     padding-top: 8px;
 }
 
+.container-about {
+    display: flex;
+    height: 400px;
+    padding-top: 72px;
+    padding-left: 2px;
+    color: black;
+    font-size: 16px;
+
+    .about-first-block {
+        display: flex ;
+        flex-direction: column ;
+        width: 420px;
+        .about {
+            padding-top: 20px;
+            padding-left: 10px;
+            font-weight: bold;
+            font-size: 45px ;
+            
+        }
+        .about-text {
+            
+           padding-top: 20px;
+        }
+
+    }
+        .about-two-blocks {
+            flex-direction: row;
+            flex: 1;
+            padding-left: 20px;
+            
+            .about-title {
+                font-size: 25px;
+                font-weight: bold;
+            }
+    }
+}
+
 .solutions-block {
     height: 710px;
     padding-top: 98px;
